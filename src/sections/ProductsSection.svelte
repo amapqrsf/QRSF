@@ -7,12 +7,9 @@
 
     for (const path in modules) {
         fetch(path)
-            .then(response => response.text())
-            .then(text => {
-                const product = JSON.parse(text);
-                productsList = [...productsList, product];
-            })
-            .catch(error => console.error('Error parsing JSON:', error));
+        modules[path]().then((module) => {
+            productsList = [...productsList, module.default];
+        }).catch(error => console.error('Error loading product module:', error));
     }
 </script>
 
