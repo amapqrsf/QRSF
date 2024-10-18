@@ -3,12 +3,16 @@
 
     let productsList: { name: string; description: string; image: string }[] = [];
 
-    const modules = import.meta.glob('../../public/products/*.js');
+    const modules = import.meta.glob('../public/products/*.md');
 
     for (const path in modules) {
-        modules[path]().then((module) => {
-            productsList = [...productsList, module.default];
-        }).catch(error => console.error('Error loading product module:', error));
+        fetch(path)
+            .then(response => response.text())
+            .then(text => {
+                const product = JSON.parse(text);
+                productsList = [...productsList, product];
+            })
+            .catch(error => console.error('Error parsing JSON:', error));
     }
 </script>
 
