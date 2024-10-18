@@ -1,6 +1,6 @@
 media:
-  input: maintenance/images
-  output: /maintenance/images
+  input: public/images
+  output: /public/images
 content:
   - name: products
     label: Products
