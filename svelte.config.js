@@ -11,7 +11,7 @@ export default {
       fallback: 'index.html'
     }),
     paths: {
-      base: dev ? '' : '/sveltekit-github-pages'
+      base: dev ? '' : '/QRSF'
     },
     prerender: {
       default: true
