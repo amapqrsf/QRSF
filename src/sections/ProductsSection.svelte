@@ -3,16 +3,14 @@
 
     let productsList: { name: string; description: string; image: string }[] = [];
 
-    const modules = import.meta.glob('../../maintenance/products/*.md');
+    // Utilisation de import.meta.glob pour charger les fichiers JS générés
+    const modules = import.meta.glob('../../build/assets/*.js');
 
+    // Charger chaque module généré (chaque fichier JS) et l'ajouter à la liste de produits
     for (const path in modules) {
-        fetch(path)
-            .then(response => response.text())
-            .then(text => {
-                const product = JSON.parse(text);
-                productsList = [...productsList, product];
-            })
-            .catch(error => console.error('Error parsing JSON:', error));
+        modules[path]().then((module) => {
+            productsList = [...productsList, module.default];
+        }).catch(error => console.error('Error loading product module:', error));
     }
 </script>
 
@@ -24,7 +22,7 @@
                 <ProductCard
                         Name={product.name}
                         Description={product.description}
-                        Image={"." + product.image}
+                        Image={product.image}
                         invert={index % 2 === 0}
                 />
             </div>
