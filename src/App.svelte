@@ -26,5 +26,6 @@ import ProductsSection from "./sections/ProductsSection.svelte";
         flex-direction: column;
         align-items: center;
         gap: 10rem;
+        
     }
 </style>
