@@ -1,0 +1,31 @@
+media:
+  input: maintenance/images
+  output: /maintenance/images
+content:
+  - name: products
+    label: Products
+    path: maintenance/products
+    type: collection
+    format: json
+    subfolders: false
+    fields :
+      - {name: name, label: Nom, type: string, required: true}
+      - {name: description, label: Description, type: text, required: true}
+      - {name: image, label: Image, type: image, required: true}
+  - name: dates
+    label: Dates du calendrier
+    path: maintenance/dates.json
+    type: file
+    format: json
+  - name: comment_ca_marche
+    label: Comment ça marche
+    path: maintenance/comment ça marche.md
+    type: file
+  - name: display_calendar
+    label: Afficher le calendrier
+    path: maintenance/display_calendar.json
+    type: file
+    format: json
+    subfolders: false
+    fields :
+      - {name: displayCalendar, label: Afficher le calendrier, type: boolean,default: true, required: true, description: Coché cette case si vous voulez afficher le calendrier des prochaines livraisons}

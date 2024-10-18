@@ -1,0 +1,162 @@
+:root {
+  --primary: #F6F4F5;
+  --secondary: #B50021;
+  --tertiary: #2CD461;
+  --background: #FFFEF8;
+  --text: #252221;
+  --action-1: #FFCC59;
+  --action-2: #FFB10B;
+  --action-gradient: linear-gradient(104deg, var(--action-1) 30.09%, var(--action-2) 69.91%);
+
+  --box-shadow: 0 4px 7.4px 0 rgba(222, 152, 0, 0.65);
+
+
+  --danger: #E20000;
+  --success: #00E217;
+}
+
+
+@font-face {
+  font-family: 'ClariSans';
+  src: url('../assets/fonts/clarissans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Beattingvile';
+  src: url('../assets/fonts/Beattingvile.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gabarito';
+  src: url('../assets/fonts/Gabarito-VariableFont.ttf') format('truetype');
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#app {
+  overflow-x: hidden;
+}
+
+.svg {
+
+  &__stroke {
+    stroke: var(--text);
+
+    &--danger {
+      stroke: var(--danger);
+    }
+
+    &--success {
+      stroke: var(--success);
+    }
+
+    &--action {
+      stroke: var(--action-1);
+    }
+  }
+  &__fill {
+    fill: var(--text);
+
+    &--danger {
+      fill: var(--danger);
+    }
+
+    &--success {
+      fill: var(--success);
+    }
+
+    &--action {
+      fill: var(--action-1);
+    }
+  }
+
+}
+
+
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /*background-color: rgba(18, 21, 37, 0.3);*/
+  z-index: 1;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'ClariSans', sans-serif;
+  font-weight: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+
+h2 {
+  font-size: 1.75rem;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+  }
+}
+
+h4 {
+  font-size: 1.25rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+p, label, input, button, a {
+  font-family: 'Gabarito', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.75rem;
+  }
+}
+
+.font--small {
+  font-size: 0.75rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.5rem;
+  }
+}
+
+.strong {
+  font-weight: 700;
+}
