@@ -1,14 +1,19 @@
 import adapter from '@sveltejs/adapter-static';
 
+const dev = process.env.NODE_ENV === 'development';
+
 export default {
   kit: {
     adapter: adapter({
-      // Options for the adapter, such as `pages`, `assets`, etc.
-      fallback: 'index.html'  // Important for single page applications
+      pages: 'build',  // Répertoire où seront générées les pages
+      assets: 'build', // Répertoire des fichiers statiques
+      fallback: 'index.html'
     }),
     paths: {
-      // Update this if your GitHub Pages repository is a subpath
-      base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-page' : ''
+      base: dev ? '' : '/QRSF'
+    },
+    prerender: {
+      default: true
     }
   }
 };
