@@ -11,7 +11,7 @@ content:
     fields :
       - {name: name, label: Nom, type: string, required: true}
       - {name: description, label: Description, type: text, required: true}
-      - {name: image, label: Image, type: image, required: true }
+      - {name: image, label: Image, type: string, required: true, description: Il faut mettre les noms de l'image à la suite du texte suivant "./images/nom_de_limage.png" / exemple = "./images/boeuf.png" /!\ il faut penser à bien mettre la bonne extention .jpg / .png /!\}
   - name: dates
     label: Dates du calendrier
     path: maintenance/dates.json
