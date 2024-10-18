@@ -24,7 +24,7 @@
                 <ProductCard
                         Name={product.name}
                         Description={product.description}
-                        Image={product.image}
+                        Image={"." + product.image}
                         invert={index % 2 === 0}
                 />
             </div>
