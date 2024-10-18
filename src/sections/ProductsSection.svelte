@@ -3,7 +3,7 @@
 
     let productsList: { name: string; description: string; image: string }[] = [];
 
-    const modules = import.meta.glob('../public/products/*.md');
+    const modules = import.meta.glob('../products/*.md');
 
     for (const path in modules) {
         fetch(path)
