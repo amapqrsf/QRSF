@@ -4,7 +4,7 @@ media:
 content:
   - name: products
     label: Products
-    path: maintenance/products
+    path: public/products
     type: collection
     format: json
     subfolders: false
