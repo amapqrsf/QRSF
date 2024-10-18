@@ -31,4 +31,9 @@ export default defineConfig({
     svelte(),
     loadMarkdownAsJSON(), // Plugin pour charger les fichiers Markdown en JSON
   ],
+  base: './',
+  build: {
+    outDir: 'build',
+    assetsDir: 'assets'
+  }
 });

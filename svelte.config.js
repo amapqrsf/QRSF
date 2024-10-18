@@ -16,7 +16,7 @@ export default {
     prerender: {
       default: true
     },
-    trailingSlash: 'always'  // Ajoute un slash à la fin des URLs
+    trailingSlash: 'always'
   },
   preprocess: vitePreprocess({
     style: {
