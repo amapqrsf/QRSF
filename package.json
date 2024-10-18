@@ -19,7 +19,6 @@
     "tslib": "^2.6.3",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
-    "vite-plugin-md": "^0.22.5",
     "vite-plugin-raw": "^1.0.3"
   },
   "dependencies": {
