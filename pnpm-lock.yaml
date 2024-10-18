@@ -13,6 +13,9 @@ dependencies:
     version: 0.9.14(svelte@4.2.19)
 
 devDependencies:
+  '@sveltejs/adapter-netlify':
+    specifier: ^4.3.5
+    version: 4.3.5(@sveltejs/kit@2.7.1)
   '@sveltejs/adapter-static':
     specifier: ^3.0.5
     version: 3.0.5(@sveltejs/kit@2.7.1)
@@ -236,6 +239,10 @@ packages:
     os: [win32]
     requiresBuild: true
     optional: true
+
+  /@iarna/toml@2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: true
 
   /@jridgewell/gen-mapping@0.3.5:
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -543,6 +550,17 @@ packages:
     os: [win32]
     requiresBuild: true
     optional: true
+
+  /@sveltejs/adapter-netlify@4.3.5(@sveltejs/kit@2.7.1):
+    resolution: {integrity: sha512-3Gvk8WumDXw35xurzkUHw3fWoKlDXzcSpP76gNeHNx2AFuTtaOcv/utVLAtdmC1FyfpHk4YwAGzyEvFmmaJhwg==}
+    peerDependencies:
+      '@sveltejs/kit': ^2.4.0
+    dependencies:
+      '@iarna/toml': 2.2.5
+      '@sveltejs/kit': 2.7.1(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.9)
+      esbuild: 0.21.5
+      set-cookie-parser: 2.7.0
+    dev: true
 
   /@sveltejs/adapter-static@3.0.5(@sveltejs/kit@2.7.1):
     resolution: {integrity: sha512-kFJR7RxeB6FBvrKZWAEzIALatgy11ISaaZbcPup8JdWUdrmmfUHHTJ738YHJTEfnCiiXi6aX8Q6ePY7tnSMD6Q==}
