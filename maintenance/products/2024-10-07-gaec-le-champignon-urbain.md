@@ -1,5 +1,5 @@
 {
   "name": "GAEC Le Champignon Urbain",
   "description": "Découvrez notre sélection de champignons frais, soigneusement choisis par nos producteurs locaux pour garantir une qualité exceptionnelle. Nous vous proposons trois variétés de champignons, chacune offrant des saveurs et des textures uniques. Les Champignons Shiitakés, avec leur goût prononcé et leur texture charnue, sont parfaits pour rehausser vos plats. Ils sont disponibles en sachet de 200g à 15€/kg. Si vous cherchez une option plus subtile et délicate, les Champignons Pleurotes sont une excellente option, vendus en sachet de 232g à 13€/kg, ils sont légers et savoureux. Enfin, pour un classique incontournable, les Champignons de Paris Bruns apportent une touche douce et agréable à vos préparations culinaires, avec un sachet de 300g à 10€/kg. Chaque variété est sélectionnée avec soin pour vous offrir des produits frais et délicieux.",
-  "image": "/public/images/shitakes.png"
+  "image": "./images/shitakes.png"
 }
