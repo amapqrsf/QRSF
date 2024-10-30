@@ -15,10 +15,6 @@
     </div>
     <div class:accordion__text__container={true} class:accordion__text__container--open={isOpen}>
         <div class="accordion__text__content">
-            {#if typeof Content === 'string'}
-                {@html Content}
-            {:else}
-            {/if}
             {Content}
         </div>
     </div>
