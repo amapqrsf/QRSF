@@ -19,7 +19,7 @@
 
         <Accordion
                 Title={"Qu'est-ce qu'une AMAP ?"}
-                Content={"Les AMAP, ou Associations pour le Maintien de l'Agriculture Paysanne, incarnent une véritable révolution dans notre manière de consommer et de nous approvisionner en produits alimentaires. Contrairement à un simple marché, une AMAP est bien plus qu'un lieu d'échange de denrées. C'est un pacte de confiance entre producteurs et consommateurs, un engagement pour une consommation plus responsable et respectueuse de l'environnement."}
+                Content={"Les AMAP, ou Associations pour le Maintien d'une Agriculture Paysanne, incarnent un changement dans notre manière de consommer et de nous approvisionner en produits alimentaires. Contrairement à un simple marché, une AMAP est bien plus qu'un lieu d'échange de denrées. C'est un pacte de confiance entre producteurs et consommateurs pour une consommation plus responsable et respectueuse de l'environnement, à travers des contrats qui engagent chacun sur une période donnée."}
                 isOpen={openAccordion === "Qu'est-ce qu'une AMAP ?"}
                 onHeaderClick={handleAccordionClick}
         />
@@ -37,7 +37,7 @@
         />
         <Accordion
                 Title={"Ensemble, cultivons le lien"}
-                Content="Chez nous, l'AMAP n'est pas qu'une structure administrative. C'est une véritable communauté, un lieu de partage et d'échange où se tissent des liens forts entre les adhérents et les producteurs. Participer à nos distributions, c'est l'occasion de rencontrer ceux qui font pousser nos légumes, élèvent nos animaux et produisent nos délices culinaires. C'est l'opportunité de renouer avec une relation authentique avec notre alimentation, en apprenant d'où viennent nos produits et en découvrant les visages derrière nos assiettes."
+                Content="Chez nous, l'AMAP n'est pas qu'une structure administrative. C'est un lieu de partage et d'échange où se tissent des liens entre les amapiens et les producteurs. Participer à nos distributions, c'est l'occasion de rencontrer ceux qui font pousser nos légumes, élèvent nos animaux ou encore produisent nos fromages. C'est l'opportunité de renouer avec une relation authentique avec notre alimentation, en apprenant d'où viennent nos produits et en découvrant les visages derrière nos assiettes."
                 isOpen={openAccordion === "Ensemble, cultivons le lien"}
                 onHeaderClick={handleAccordionClick}
         />

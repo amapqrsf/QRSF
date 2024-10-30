@@ -6,24 +6,18 @@
 <section id="bienvenu" class="welcome_section">
     <div class="welcome_section__top">
         <div class="welcome_section__top__text">
-            <h2>Bienvenue sur la cagette de l'AMAP Qui Ramène Sa Fraise !</h2>
-            <p>Dans notre petit coin de nature entre Pont Rousseau et Saint Paul, nous cultivons bien plus que des
-                légumes
-                bio. Nous semons des liens, des sourires, et une conscience écologique.</p>
+            <h2>Bienvenue chez l'AMAP Qui Ramène Sa Fraise !</h2>
+            <p>Entre Pont Rousseau et Saint Paul, nous cultivons bien plus que des
+                légumes bio. Nous semons des liens, des sourires, et une conscience écologique.</p>
             <p>En nous rejoignant, vous faites bien plus qu'acheter des produits frais : vous participez à une aventure
-                humaine, à un élan de solidarité qui enrichit autant nos assiettes que nos cœurs.</p>
-            <p>Chez nous, chaque distribution est un rendez-vous joyeux où les échanges vont bien au-delà des paniers.
-                C'est une famille qui grandit, une communauté qui s'épanouit, portée par l'amour de la terre et le
-                respect de la nature.</p>
-            <p>Explorez notre site pour découvrir nos producteurs passionnés, nos délicieux paniers et nos prochaines
-                distributions. Et surtout, rejoignez-nous pour partager la fraîcheur, la convivialité et la simplicité
-                d'une alimentation saine et responsable.
+                humaine qui enrichit autant nos assiettes que nos cœurs.</p>
+            <p>Explorez notre site pour découvrir nos producteurs. Et surtout, rejoignez-nous pour partager une alimentation saine et responsable.
                 Bienvenue dans notre AMAP, où chaque fraise ramenée est synonyme de sourire et de partage !</p>
             <p>L'équipe de l'AMAP Qui Ramène Sa Fraise</p>
         </div>
         <div class="welcome_section__top__image">
             <img src={welcome}
-                 alt="Bienvenue sur la cagette de l'AMAP Qui Ramène Sa Fraise à Rezé !"/>
+                 alt="Bienvenue sur le site de l'AMAP Qui Ramène Sa Fraise à Rezé !"/>
         </div>
     </div>
     <div class="welcome_section__bottom">
