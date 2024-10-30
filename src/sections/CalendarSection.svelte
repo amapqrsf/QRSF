@@ -11,11 +11,9 @@
 
 <section class="calendar_section">
     <div class="calendar_section__text">
-        <h2>Calendrier des prochaines distributions</h2>
-        <p>Chez l'AMAP Qui Ramène Sa Fraise, nous sommes ravis de vous accueillir à nos distributions hebdomadaires.
-            Consultez notre calendrier pour connaître les dates et horaires des prochaines distributions et ne manquez
-            pas l'occasion de récupérer vos délicieux paniers de produits frais directement auprès de nos producteurs
-            locaux.</p>
+        <h2>Calendrier des distributions</h2>
+        <p>A l'AMAP Qui Ramène Sa Fraise, nous sommes ravis de vous accueillir à nos distributions hebdomadaires le lundi soir de 18h à 19h15.
+        </p>
 
     </div>
     <div class="calendar_section__infos">
