@@ -6,8 +6,8 @@
 <section id="bienvenu" class="welcome_section">
     <div class="welcome_section__top">
         <div class="welcome_section__top__text">
-            <h2>Bienvenue chez l'AMAP Qui Ramène Sa Fraise !</h2>
-            <p>Entre Pont Rousseau et Saint Paul, nous cultivons bien plus que des
+            <h2>Bienvenue à l'AMAP Qui Ramène Sa Fraise !</h2>
+            <p>A Rezé, entre Pont Rousseau et Saint Paul, nous cultivons bien plus que des
                 légumes bio. Nous semons des liens, des sourires, et une conscience écologique.</p>
             <p>En nous rejoignant, vous faites bien plus qu'acheter des produits frais : vous participez à une aventure
                 humaine qui enrichit autant nos assiettes que nos cœurs.</p>
